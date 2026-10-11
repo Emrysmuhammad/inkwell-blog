@@ -1,0 +1,45 @@
+.toc {
+  padding-left: 16px;
+  border-left: 2px solid var(--border);
+}
+
+.toc-title {
+  margin-bottom: 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.toc a {
+  display: block;
+  padding: 5px 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--text-soft);
+}
+
+.toc a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.toc a.active {
+  font-weight: 600;
+  color: var(--brand);
+}
+
+.toc-level-3 {
+  padding-left: 14px;
+}
+
+.related {
+  margin-top: 72px;
+  padding-top: 44px;
+  border-top: 1px solid var(--border);
+}
+
+.related .section-title {
+  margin-bottom: 24px;
+}
